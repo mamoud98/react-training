@@ -3,6 +3,11 @@
     --primary-color: #ffad12;
     --light-primary-color: #FABF43;
     --secoundry-color: #989898;
+    --p-color: #515C6E
+}
+
+.p-color {
+    color: var(--p-color);
 }
 
 body {
@@ -80,4 +85,97 @@ a,
 
 .h-80vh {
     min-height: 80vh;
+}
+
+.h-60vh {
+    min-height: 60vh;
+}
+
+.navbar-light .navbar-nav .nav-link.en-color {
+    color: #001737;
+}
+
+.navbar-light .navbar-nav .nav-link.en-color {
+    color: #001737;
+}
+
+.input-group .btn {
+    z-index: 3;
+}
+
+.left-3 {
+    left: -3.625rem;
+}
+
+.icon {
+    color: #E5E7F0;
+    top: -40px
+}
+
+.p-f {
+    font-family: 'gess-medium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.875rem;
+}
+
+.form-width {
+    max-width: 40.625rem;
+}
+
+.input-form2 {
+    border-radius: 0 20px 20px 0;
+    background-color: #FCFCFC;
+    padding-right: 28px;
+}
+
+.but-form2 {
+    border-radius: 20px 0 0 20px;
+    background-color: #F2F3F8;
+}
+
+.width-bon {
+    width: 50px;
+}
+
+.border {
+    border: 1px solid #E5E7F0!important;
+}
+
+.div-form {
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+.form-img {
+    left: 61px;
+    bottom: 32px;
+}
+
+.bg-img {
+    background-image: url("../images/Mask\ Group\ 3.svg");
+    background-repeat: no-repeat
+}
+.form-width::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/Mask\ Group\ 3.svg");
+}
+
+@media (max-width: 767.98px) {
+    .forms {
+        flex-direction: column;
+    }
+    .div-form {
+        padding: 12px;
+        margin-top: 15px;
+    }
+    .icon {
+        top: 0
+    }
+}
+
+@media (max-width: 845px) {
+    .left-3 {
+        left: 0rem;
+    }
 }
